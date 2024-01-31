@@ -15,7 +15,7 @@ const funcionConCallback = (x, y, callback) => {
 funcionConCallback(5, 10, (resultado) => {
     console.log("Callback: ", resultado);
 });
-//(\)
+
 console.log("Fin del callback");
 
 const funcionConPromesa = (x, y) => {
